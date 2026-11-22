@@ -1,0 +1,90 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "buggypather",
+  "description": "buggypather's Claude Code plugins: save your conversations, get desktop notifications, and collect crash reports. Windows, Mac and Linux. MIT licence.",
+  "owner": {
+    "name": "buggypather",
+    "url": "https://github.com/buggypather"
+  },
+  "plugins": [
+    {
+      "name": "save-me-claude",
+      "source": {
+        "source": "github",
+        "repo": "buggypather/save-me-claude"
+      },
+      "description": "Saves every Claude Code conversation (and the commands Claude ran) to your own folder, one folder a day.",
+      "author": {
+        "name": "buggypather"
+      },
+      "homepage": "https://github.com/buggypather/save-me-claude",
+      "repository": "https://github.com/buggypather/save-me-claude",
+      "license": "MIT",
+      "category": "backup",
+      "keywords": [
+        "save",
+        "transcript",
+        "backup",
+        "log"
+      ],
+      "tags": [
+        "save",
+        "transcript",
+        "backup",
+        "log"
+      ]
+    },
+    {
+      "name": "notify-me-claude",
+      "source": {
+        "source": "github",
+        "repo": "buggypather/notify-me-claude"
+      },
+      "description": "Desktop notifications when Claude Code starts working, needs your permission, replies while still working, or finishes.",
+      "author": {
+        "name": "buggypather"
+      },
+      "homepage": "https://github.com/buggypather/notify-me-claude",
+      "repository": "https://github.com/buggypather/notify-me-claude",
+      "license": "MIT",
+      "category": "notifications",
+      "keywords": [
+        "notify",
+        "notifications",
+        "toast"
+      ],
+      "tags": [
+        "notify",
+        "notifications",
+        "toast"
+      ]
+    },
+    {
+      "name": "crash-me-claude",
+      "source": {
+        "source": "github",
+        "repo": "buggypather/crash-me-claude"
+      },
+      "description": "Collects Claude Code and IDE-extension crash and error reports on your computer, redacted, ready to save or send.",
+      "author": {
+        "name": "buggypather"
+      },
+      "homepage": "https://github.com/buggypather/crash-me-claude",
+      "repository": "https://github.com/buggypather/crash-me-claude",
+      "license": "MIT",
+      "category": "diagnostics",
+      "keywords": [
+        "crash",
+        "report",
+        "bug",
+        "diagnostics"
+      ],
+      "tags": [
+        "crash",
+        "report",
+        "bug",
+        "diagnostics"
+      ]
+    }
+  ]
+}
